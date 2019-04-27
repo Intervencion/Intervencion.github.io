@@ -46,3 +46,8 @@
     .completed {
       background-color: green;
     }
+	
+	div:nth-child(7) {
+	 background-color: yellow;
+	}
+	
