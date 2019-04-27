@@ -5,7 +5,7 @@
       overflow: auto;
     }
 	
-	.items:nth-child(1) {
+	.itemsmandatory:nth-child(1) {
 	 background-color: yellow;
      background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
 	 background-position: center;
@@ -25,12 +25,12 @@
       user-select: none;
     }
 
-    .items {
+    .itemsmandatory {
       display: flex;
       gap: 4px;
     }
 
-    .items>div {
+    .itemsmandatory>div {
       border: 1px solid black;
       width: fit-content;
       padding: 2px;
@@ -40,7 +40,22 @@
       user-select: none;
     }
 
-    .optionalItems {
+    .itemsoptionalItems {
+      display: flex;
+      gap: 4px;
+    }
+
+    .itemsoptionalItems>div {
+      border: 1px solid black;
+      width: fit-content;
+      padding: 2px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .itemsoptionalItems {
       border-left: 1px solid black;
       padding-left: 5px;
     }
