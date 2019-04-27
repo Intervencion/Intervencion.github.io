@@ -52,7 +52,8 @@
 	}
 	
 	.items:nth-child(1) {
-    background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
-	background-position: center;
+	 background-color: yellow;
+     background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
+	 background-position: center;
     }
 	
