@@ -4,6 +4,12 @@
       resize: both;
       overflow: auto;
     }
+	
+	.items:nth-child(1) {
+	 background-color: yellow;
+     background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
+	 background-position: center;
+    }
 
     .itemGroup {
       display: grid;
@@ -50,10 +56,4 @@
 	div.mandatory:nth-child(1) {
 	 background-color: yellow;
 	}
-	
-	.items:nth-child(1) {
-	 background-color: yellow;
-     background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
-	 background-position: center;
-    }
 	
