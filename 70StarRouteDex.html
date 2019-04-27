@@ -2,10 +2,85 @@
 <html lang="en">
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="70StarRouteDex.css" />
+  <!--<link rel="stylesheet" href="70StarRouteDex.css" />-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>70 Star Route dex</title>
+  <style>
+      #content {
+      padding: 10px;
+      border: 1px solid grey;
+      resize: both;
+      overflow: auto;
+    }
+	
+	.itemsmandatory:nth-child(1) {
+	 background-color: yellow;
+     background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
+	 background-position: center;
+    }
+
+    .itemGroup {
+      display: grid;
+      grid-template-columns: 1fr 1fr 4fr 2fr;
+      margin-bottom: 1px;
+      padding-bottom: 1px;
+    }
+
+    .title {
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .itemsmandatory {
+      display: flex;
+      gap: 4px;
+    }
+
+    .itemsmandatory>div {
+      border: 1px solid black;
+      width: fit-content;
+      padding: 2px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .itemsoptionalItems {
+      display: flex;
+      gap: 4px;
+    }
+
+    .itemsoptionalItems>div {
+      border: 1px solid black;
+      width: fit-content;
+      padding: 2px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .itemsoptionalItems {
+      border-left: 1px solid black;
+      padding-left: 5px;
+    }
+
+    .marked {
+      background-color: red;
+    }
+
+    .completed {
+      background-color: green;
+    }
+	
+	div.mandatory:nth-child(1) {
+	 background-color: yellow;
+	}
+  </style>
   <script>
     class Item {
       constructor(name, count) {
