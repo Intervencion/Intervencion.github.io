@@ -14,11 +14,11 @@
       overflow: auto;
     }
 	
-	.itemsmandatory:nth-child(1) {
-	 background-color: yellow;
-     background-image: url('https://mangadex.org/images/groups/default.dark.png') !important;
-	 background-position: center;
-    }
+	/*div.items-mandatory>div:nth-of-type(1){
+	  background-color: yellow;
+      background-image: url('https://mangadex.org/images/groups/default.dark.png');
+	  background-position: center;
+    }*/
 
     .itemGroup {
       display: grid;
@@ -34,12 +34,12 @@
       user-select: none;
     }
 
-    .itemsmandatory {
+    .items-mandatory {
       display: flex;
       gap: 4px;
     }
 
-    .itemsmandatory>div {
+    .items-mandatory>div {
       border: 1px solid black;
       width: fit-content;
       padding: 2px;
@@ -49,12 +49,12 @@
       user-select: none;
     }
 
-    .itemsoptionalItems {
+    .items-optionalItems {
       display: flex;
       gap: 4px;
     }
 
-    .itemsoptionalItems>div {
+    .items-optionalItems>div {
       border: 1px solid black;
       width: fit-content;
       padding: 2px;
@@ -64,7 +64,7 @@
       user-select: none;
     }
 
-    .itemsoptionalItems {
+    .items-optionalItems {
       border-left: 1px solid black;
       padding-left: 5px;
     }
@@ -76,10 +76,6 @@
     .completed {
       background-color: green;
     }
-	
-	div.mandatory:nth-child(1) {
-	 background-color: yellow;
-	}
   </style>
   <script>
     class Item {
@@ -197,8 +193,8 @@
         template.innerHTML = `<div class="itemGroup">
         <div class="title">${itemGroup.name}</div>
         <div class="itemCount">0/${itemGroup.count}</div>
-        <div class="itemsmandatory"></div>
-        <div class="itemsoptionalItems"></div>
+        <div class="items-mandatory"></div>
+        <div class="items-optionalItems"></div>
         </div>`
         const itemCountEl = template.content.firstChild.children[1];
         const items = template.content.firstChild.children[2];
@@ -236,6 +232,9 @@
     <div id="list">
     </div>
   </div>
+  <script>
+    document.getElementsByClassName('unmark')[1].style.color = 'red';
+  </script>
 </body>
 
 </html>

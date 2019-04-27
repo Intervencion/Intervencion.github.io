@@ -1,74 +1,69 @@
-    #content {
-      padding: 10px;
-      border: 1px solid grey;
-      resize: both;
-      overflow: auto;
-    }
-	
-	.itemsmandatory:nth-child(1) {
-	 background-color: yellow;
-     background-image: url(https://mangadex.org/images/groups/default.dark.png) !important;
-	 background-position: center;
-    }
+#content {
+    padding: 10px;
+    border: 1px solid grey;
+    resize: both;
+    overflow: auto;
+}
 
-    .itemGroup {
-      display: grid;
-      grid-template-columns: 1fr 1fr 4fr 2fr;
-      margin-bottom: 1px;
-      padding-bottom: 1px;
-    }
+.items-mandatory:nth-child(1) {
+    background-color: yellow;
+    background-image: url('https://mangadex.org/images/groups/default.dark.png');
+    background-position: center;
+}
 
-    .title {
-      -moz-user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
+.itemGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 2fr;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
 
-    .itemsmandatory {
-      display: flex;
-      gap: 4px;
-    }
+.title {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-    .itemsmandatory>div {
-      border: 1px solid black;
-      width: fit-content;
-      padding: 2px;
-      -moz-user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
+.items-mandatory {
+    display: flex;
+    gap: 4px;
+}
 
-    .itemsoptionalItems {
-      display: flex;
-      gap: 4px;
-    }
+.items-mandatory>div {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 2px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-    .itemsoptionalItems>div {
-      border: 1px solid black;
-      width: fit-content;
-      padding: 2px;
-      -moz-user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
+.items-optionalItems {
+    display: flex;
+    gap: 4px;
+}
 
-    .itemsoptionalItems {
-      border-left: 1px solid black;
-      padding-left: 5px;
-    }
+.items-optionalItems>div {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 2px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-    .marked {
-      background-color: red;
-    }
+.items-optionalItems {
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
 
-    .completed {
-      background-color: green;
-    }
-	
-	div.mandatory:nth-child(1) {
-	 background-color: yellow;
-	}
-	
+.marked {
+    background-color: red;
+}
+
+.completed {
+    background-color: green;
+}
