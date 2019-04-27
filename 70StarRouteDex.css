@@ -47,7 +47,7 @@
       background-color: green;
     }
 	
-	.items mandatory:nth-child(1) {
+	div.mandatory:nth-child(1) {
 	 background-color: yellow;
 	}
 	
