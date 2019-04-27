@@ -47,7 +47,7 @@
       background-color: green;
     }
 	
-	div:nth-child(7) {
+	div>div>div>div>div>div>div {
 	 background-color: yellow;
 	}
 	
