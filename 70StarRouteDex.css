@@ -47,7 +47,7 @@
       background-color: green;
     }
 	
-	div>div>div>div>div>div>div {
+	.items mandatory:nth-child(1) {
 	 background-color: yellow;
 	}
 	
