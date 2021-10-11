@@ -12167,7 +12167,7 @@ window.captains = {
         atk: function(p) { return p.unit.type == "INT" ? 3.25 : 1; },
         hp: function(p) { return p.unit.class.has("Driven") || p.unit.class.has("Striker") ? 1.5 : 1; },
     },
-    3462: {
+    3478: {
         atk: function(p) {
        if (p.unit.class.has("Fighter") || return p.unit.class.has("Free Spirit") || p.unit.type == "DEX") {
          if (CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName, p) >= 2 && p.orb != 'g') {
@@ -12199,10 +12199,10 @@ window.captains = {
         },
         hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
     },
-    3478: {
-        hp: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
-        rcv: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
-    },
+    //3478: {
+    //    hp: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+    //    rcv: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
+    //},
 };
 
 var calcGhostStartIDCaptains = { "start": 5000 };
