@@ -3460,7 +3460,7 @@ window.units = [
     [ "Streusen, Fluffy Cook", "PSY", [ "Slasher", "Free Spirit" ], 5, 30, 5, 4, 99, 4000000, 2313, 703, 96, null, null, null, null ],
     [ "Sir Crocodile, Drying Sand", "INT", [ "Driven", "Striker" ], 5, 40, 4, 3, 99, 4000000, 1483, 748, 104, null, null, null, null ],
     [ "Super Legend Halloween Koala", "DEX", [ "Fighter", "Spirit" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "Super Legend Halloween Koala EVO", "DEX", [ "Fighter", "Free Spirit" ], 6, 55, 4, 5, 99, 5000000, null, null, null, null, null, null, null ],
+    [ "Super Legend Halloween Koala EVO", "DEX", [ "Fighter", "Free Spirit" ], 6, 55, 4, 5, 99, 5000000, 1746, 765, 106, 3492, 1531, 373, 1 ],
     [ "TM RR Karasu", "INT", [ "Free Spirit", "Cerebral" ], 5, 30, 4, 5, 99, null, null, null, null, null, null, null, null ],
     [ "TM RR Morley", "DEX", [ "Free Spirit", "Striker" ], 5, 30, 5, 5, 99, null, null, null, null, null, null, null, null ],
     [ "PF Helmeppo", "QCK", [ "Free Spirit", "Slasher" ], 5, 50, 4, 5, 99, null, null, null, null, null, null, null, null ],
