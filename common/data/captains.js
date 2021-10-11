@@ -12168,8 +12168,8 @@ window.captains = {
         hp: function(p) { return p.unit.class.has("Driven") || p.unit.class.has("Striker") ? 1.5 : 1; },
     },
     3478: {
-        atk: function(p) {
-       if (p.unit.class.has("Fighter") || return p.unit.class.has("Free Spirit") || p.unit.type == "DEX") {
+        atk: function(p) {return
+       if (p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") || p.unit.type == "DEX") {
          if (CrunchUtils.getOrbMultiplier(p.orb, p.unit.type, p.unit.class, 1, 2, [p.friendCaptain, p.captain], p.effectName, p) >= 2 && p.orb != 'g') {
            return 5;
          } else { return 4.5; }
